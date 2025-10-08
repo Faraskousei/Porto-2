@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "R - Portfolio",
+  title: "rRas - Portfolio",
   description: "Personal Portfolio Website by Faras Azzikri",
   icons: {
     icon: [

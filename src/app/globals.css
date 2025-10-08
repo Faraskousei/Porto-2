@@ -122,4 +122,20 @@
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Enhanced mobile visibility for glassmorphism effects */
+  @media (max-width: 768px) {
+    .glass-effect {
+      backdrop-filter: blur(24px) saturate(180%);
+      -webkit-backdrop-filter: blur(24px) saturate(180%);
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    }
+    
+    /* Ensure text readability on mobile */
+    .text-content {
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
 }
